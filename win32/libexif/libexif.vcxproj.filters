@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\canon">
+      <UniqueIdentifier>{98b61a3b-bdee-468a-b59a-635a7937e3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fuji">
+      <UniqueIdentifier>{da546e52-4aa2-42b5-a482-fb761b4420b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\olympus">
+      <UniqueIdentifier>{16204039-9730-481b-8db1-2d6db9473efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pentax">
+      <UniqueIdentifier>{f3f36f31-4ea3-4d0c-a8ab-cd7624826224}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libexif\_stdint.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-byte-order.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-content.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-data-type.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-entry.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-format.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-ifd.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-loader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-log.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-mem.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-mnote-data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-mnote-data-priv.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-system.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-tag.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\exif-utils.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\i18n.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\canon\exif-mnote-data-canon.h">
+      <Filter>源文件\canon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\canon\mnote-canon-entry.h">
+      <Filter>源文件\canon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\canon\mnote-canon-tag.h">
+      <Filter>源文件\canon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\fuji\exif-mnote-data-fuji.h">
+      <Filter>源文件\fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\fuji\mnote-fuji-entry.h">
+      <Filter>源文件\fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\fuji\mnote-fuji-tag.h">
+      <Filter>源文件\fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\olympus\exif-mnote-data-olympus.h">
+      <Filter>源文件\olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\olympus\mnote-olympus-entry.h">
+      <Filter>源文件\olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\olympus\mnote-olympus-tag.h">
+      <Filter>源文件\olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\pentax\exif-mnote-data-pentax.h">
+      <Filter>源文件\pentax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\pentax\mnote-pentax-entry.h">
+      <Filter>源文件\pentax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexif\pentax\mnote-pentax-tag.h">
+      <Filter>源文件\pentax</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libexif\exif-byte-order.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-content.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-entry.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-format.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-ifd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-loader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-mem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-mnote-data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-tag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\exif-utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\canon\exif-mnote-data-canon.c">
+      <Filter>源文件\canon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\canon\mnote-canon-entry.c">
+      <Filter>源文件\canon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\canon\mnote-canon-tag.c">
+      <Filter>源文件\canon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\fuji\exif-mnote-data-fuji.c">
+      <Filter>源文件\fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\fuji\mnote-fuji-entry.c">
+      <Filter>源文件\fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\fuji\mnote-fuji-tag.c">
+      <Filter>源文件\fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\olympus\exif-mnote-data-olympus.c">
+      <Filter>源文件\olympus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\olympus\mnote-olympus-entry.c">
+      <Filter>源文件\olympus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\olympus\mnote-olympus-tag.c">
+      <Filter>源文件\olympus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\pentax\exif-mnote-data-pentax.c">
+      <Filter>源文件\pentax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\pentax\mnote-pentax-entry.c">
+      <Filter>源文件\pentax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexif\pentax\mnote-pentax-tag.c">
+      <Filter>源文件\pentax</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\libexif\libexif.sym">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\libexif\Makefile.am">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\libexif\Makefile.in">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\libexif\canon\Makefile-files">
+      <Filter>源文件\canon</Filter>
+    </None>
+    <None Include="..\..\libexif\fuji\Makefile-files">
+      <Filter>源文件\fuji</Filter>
+    </None>
+    <None Include="..\..\libexif\olympus\Makefile-files">
+      <Filter>源文件\olympus</Filter>
+    </None>
+    <None Include="..\..\libexif\pentax\Makefile-files">
+      <Filter>源文件\pentax</Filter>
+    </None>
+  </ItemGroup>
+</Project>
